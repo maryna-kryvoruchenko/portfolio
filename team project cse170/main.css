@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+
+#activityHeading {
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+}
+.activities_images {
+    width: 80%;
+}
+#parent_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    grid-gap: 20px;
+}
+.childdivs {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, pink, orange) 1;
+    padding: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+#div1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+#div2 {
+    grid-row: 2;
+    grid-column: 1;
+}
+#div3 {
+    grid-row: 3;
+    grid-column: 1;
+}
+#div4 {
+    grid-row: 4;
+    grid-column: 1;
+}
+#div5 {
+    grid-row: 5;
+    grid-column: 1;
+}
+#div6 {
+    grid-row: 1;
+    grid-column: 2;
+}
+#div7 {
+    grid-row: 2;
+    grid-column: 2;
+}
+#div8 {
+    grid-row: 3;
+    grid-column: 2;
+}
+#div9 {
+    grid-row: 4;
+    grid-column: 2;
+}
+#div10 {
+    grid-row: 5;
+    grid-column: 2;
+}
+nav {
+    float: right;
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 10px;
+}
+.navLinks {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navLinks:visited {
+    color: black;
+}
