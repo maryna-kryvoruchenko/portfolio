@@ -83,3 +83,13 @@ nav {
     padding: 20px;
     font-size: 30px;
 }
+
+@media only screen and (max-width: 480px) {
+    #parent_div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .childdivs {
+        grid-column: 1;
+    }
+  }
