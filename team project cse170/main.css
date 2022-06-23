@@ -76,3 +76,10 @@ nav {
 .navLinks:visited {
     color: black;
 }
+#quote {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
