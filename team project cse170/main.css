@@ -124,10 +124,10 @@ nav {
     }
     #div9 {
         grid-row: 9;
-        grid-column: 10;
+        grid-column: 1;
     }
     #div10 {
-        grid-row: 1;
-        grid-column: 10;
+        grid-row: 10;
+        grid-column: 1;
     }
   }
